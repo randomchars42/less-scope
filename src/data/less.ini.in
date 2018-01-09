@@ -1,0 +1,33 @@
+[ScopeConfig]
+_DisplayName=Less
+_Description=This is less of a scope
+Art=screenshot.png
+_SearchHint=Type "all" or "info"
+Author=Eike Kuehn
+Icon=icon.png
+Keywords=Less
+
+[Appearance]
+#PageHeader.Logo = logo.png
+PageHeader.Background=gradient://.md#00E9E0D6.md#0029ABA4
+PageHeader.ForegroundColor=#777777
+PageHeader.DividerColor=#D0CEC6
+ForegroundColor=#777777
+BackgroundColor=#FFFFFF
+#F9F0F6
+PreviewButtonColor=#77C5F7
+# does not exist:
+ShapeImages=false
+
+# Colour Palette very warm
+# red #EB7260
+# green #29ABA4
+# blue #77C5F7
+# dark #354458
+# bright #E9E0D6
+# foreground #777777
+
+# bg #E7DFDD #F9F0F6
+# green #57BC90
+# blue #77C9D4 009EFF
+# red #FF3832

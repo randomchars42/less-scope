@@ -1,0 +1,35 @@
+
+# Below are some example settings. You can access your scope's
+# settings by calling settings() from the Query::run() method.
+# E.g. auto location = settings().at("location").get_string();
+
+[theme]
+type = string
+defaultValue = Yoda
+_displayName = Theme
+
+[title]
+type = string
+defaultValue =
+_displayName = Title
+
+[subtitle]
+type = string
+defaultValue =
+_displayName = Subtitle
+
+[text]
+type = string
+defaultValue =
+_displayName = Text
+
+[image]
+type = string
+defaultValue = /home/phablet/Pictures/
+_displayName = Default Picture
+
+[layout]
+type = list
+defaultValue = 0
+displayName = Layout
+displayValues = Image + Text (Overlay);Small Image + Title;Small Image + Text;Image only;Text only

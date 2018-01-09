@@ -1,0 +1,4 @@
+{
+	"default": "clean build click-build install",
+	"log": ".cache/upstart/scope-registry.log"
+}

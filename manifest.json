@@ -1,0 +1,15 @@
+{
+	"architecture": "armhf",
+	"description": "A simple Unity scope that accesses the network",
+	"framework": "ubuntu-sdk-15.04.6",
+	"hooks": {
+		"less": {
+			"apparmor": "less.apparmor",
+			"scope": "less"
+		}
+	},
+	"maintainer": "Eike Kuehn <eike.kuehn@pixelwoelkchen.de>",
+	"name": "less.randomchars42",
+	"title": "less",
+	"version": "0.1.0"
+}
