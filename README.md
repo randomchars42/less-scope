@@ -86,6 +86,27 @@ Nope.
 
 Got some good idea to improve the scope? Go! ;)
 
+### Build & install
+
+The project is settup for use with Brian Douglas' `clickable`.
+
+```bash
+# 1. install `clickable`
+
+# 2. get the code
+
+git clone https://github.com/randomchars42/less-scope.git
+
+cd less-scope
+
+# 3. attach your ubuntu device
+
+# 4. build & install
+#    (the default actions are described in clickable.json)
+
+clickable
+```
+
 ### Note
 
 I'm not a professional programmer and I taught myself C++ some 15 years ago with a book from the 90s. You may ask me why I wrote something the way I wrote it and I'll try and help. But it's mostly *"Because DuckDuckGo said so"* ;)
