@@ -46,10 +46,8 @@ Client::ItemList Client::parseresult(QJsonDocument &root) {
     return result;
 }
 
-void Client::getlocal(string query_string, ItemList &result) {
-
-    // read the "database" json-file
-    ifstream file(config_->scope_path + "/data.json");
+string Client::filetostring(string filename) {
+    ifstream file(filename);
     string line;
     string file_contents;
 
@@ -58,6 +56,13 @@ void Client::getlocal(string query_string, ItemList &result) {
       file_contents += line;
       file_contents.push_back('\n');
     }
+		return file_contents;
+}
+
+void Client::getlocal(string query_string, ItemList &result) {
+
+    // read the "database" json-file
+		string file_contents = filetostring(config_->scope_path + "/data.json");
 
     // Parse the JSON
     QJsonDocument root = QJsonDocument::fromJson(file_contents.c_str());
@@ -95,13 +100,13 @@ void Client::getlocal(string query_string, ItemList &result) {
             transform(title.begin(), title.end(), title.begin(), ::tolower);
         }
 
-        cerr << title << endl;
-
         if (! query_string.empty() &&
 						query_string != title &&
 						query_string != "all") {
             item = result.erase(item);
         } else {
+						// retrieve the text
+						item->text = filetostring(config_->scope_path + "/" + item->text);
             // expand the image path
             item->image = config_->scope_path + "/" + item->image;
             ++item;

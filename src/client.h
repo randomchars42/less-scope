@@ -66,6 +66,7 @@ protected:
 
 
     ItemList parseresult(QJsonDocument &root);
+		std::string filetostring(std::string filename);
 
     /**
      * Progress callback that allows the query to cancel pending HTTP requests.

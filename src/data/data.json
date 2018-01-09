@@ -5,63 +5,63 @@
         {
             "id": 1,
             "title": "Info",
-            "text": "Some very long text\n with <b>new</b>lines\n and so much information,\nyou can't possibly comprehend it.",
+            "text": "info.txt",
             "image": "yoda.svg",
             "subtitle": "About this scope."
         },
         {
             "id": 2,
             "title": "Present Moment",
-            "text": "Some intelligent text about calmness",
+            "text": "moment.txt",
             "image": "yoda.svg",
             "subtitle": ""
         },
         {
             "id": 3,
             "title": "Earth",
-            "text": "Some intelligent text about calmness",
+            "text": "earth.txt",
             "image": "earth.svg",
             "subtitle": ""
         },
         {
             "id": 4,
             "title": "Sun",
-            "text": "Some intelligent text about calmness",
+            "text": "sun.txt",
             "image": "sun.svg",
             "subtitle": ""
         },
         {
             "id": 5,
             "title": "Water",
-            "text": "Some intelligent text about calmness",
+            "text": "water.txt",
             "image": "water.svg",
             "subtitle": ""
         },
         {
             "id": 6,
-            "title": "Empty",
-            "text": "Some intelligent text about calmness",
-            "image": "empty.svg",
+            "title": "Emptiness",
+            "text": "emptiness.txt",
+            "image": "emptiness.svg",
             "subtitle": ""
         },
         {
             "id": 7,
             "title": "Blue",
-            "text": "Some intelligent text about calmness",
+            "text": "blue.txt",
             "image": "blue.svg",
             "subtitle": ""
         },
         {
             "id": 8,
             "title": "Yellow",
-            "text": "Some intelligent text about calmness",
+            "text": "yellow.txt",
             "image": "yellow.svg",
             "subtitle": ""
         },
         {
             "id": 9,
             "title": "Yoda",
-            "text": "Some intelligent text about calmness",
+            "text": "yoda.txt",
             "image": "yoda.svg",
             "subtitle": ""
         }

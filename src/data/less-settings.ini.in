@@ -5,7 +5,7 @@
 
 [theme]
 type = string
-defaultValue = Yoda
+defaultValue = Earth
 _displayName = Theme
 
 [title]
@@ -26,7 +26,7 @@ _displayName = Text
 [image]
 type = string
 defaultValue = /home/phablet/Pictures/
-_displayName = Default Picture
+_displayName = Default Picture (use "/home/phablet/Pictures/" as default)
 
 [layout]
 type = list

@@ -23,72 +23,87 @@ install(
     ${SCOPE_INSTALL_DIR}
 )
 
-configure_file(
-  "data/data.json"
-  "${CMAKE_CURRENT_BINARY_DIR}/data.json"
-  @ONLY
-  COPYONLY
-)
+#configure_file(
+#  "data/data.json"
+#  "${CMAKE_CURRENT_BINARY_DIR}/data.json"
+#  @ONLY
+#  COPYONLY
+#)
+#
+#configure_file(
+#  "data/yoda.svg"
+#  "${CMAKE_CURRENT_BINARY_DIR}/yoda.svg"
+#  @ONLY
+#  COPYONLY
+#)
+#
+#configure_file(
+#  "data/earth.svg"
+#  "${CMAKE_CURRENT_BINARY_DIR}/earth.svg"
+#  @ONLY
+#  COPYONLY
+#)
+#
+#configure_file(
+#  "data/sun.svg"
+#  "${CMAKE_CURRENT_BINARY_DIR}/sun.svg"
+#  @ONLY
+#  COPYONLY
+#)
+#
+#configure_file(
+#  "data/water.svg"
+#  "${CMAKE_CURRENT_BINARY_DIR}/water.svg"
+#  @ONLY
+#  COPYONLY
+#)
+#
+#configure_file(
+#  "data/yellow.svg"
+#  "${CMAKE_CURRENT_BINARY_DIR}/yellow.svg"
+#  @ONLY
+#  COPYONLY
+#)
+#
+#configure_file(
+#  "data/blue.svg"
+#  "${CMAKE_CURRENT_BINARY_DIR}/blue.svg"
+#  @ONLY
+#  COPYONLY
+#)
+#
+#configure_file(
+#  "data/empty.svg"
+#  "${CMAKE_CURRENT_BINARY_DIR}/empty.svg"
+#  @ONLY
+#  COPYONLY
+#)
+#
+#configure_file(
+#  "data/yoda.txt"
+#  "${CMAKE_CURRENT_BINARY_DIR}/yoda.txt"
+#  @ONLY
+#  COPYONLY
+#)
 
-configure_file(
-  "data/yoda.svg"
-  "${CMAKE_CURRENT_BINARY_DIR}/yoda.svg"
-  @ONLY
-  COPYONLY
-)
-
-configure_file(
-  "data/earth.svg"
-  "${CMAKE_CURRENT_BINARY_DIR}/earth.svg"
-  @ONLY
-  COPYONLY
-)
-
-configure_file(
-  "data/sun.svg"
-  "${CMAKE_CURRENT_BINARY_DIR}/sun.svg"
-  @ONLY
-  COPYONLY
-)
-
-configure_file(
-  "data/water.svg"
-  "${CMAKE_CURRENT_BINARY_DIR}/water.svg"
-  @ONLY
-  COPYONLY
-)
-
-configure_file(
-  "data/yellow.svg"
-  "${CMAKE_CURRENT_BINARY_DIR}/yellow.svg"
-  @ONLY
-  COPYONLY
-)
-
-configure_file(
-  "data/blue.svg"
-  "${CMAKE_CURRENT_BINARY_DIR}/blue.svg"
-  @ONLY
-  COPYONLY
-)
-
-configure_file(
-  "data/empty.svg"
-  "${CMAKE_CURRENT_BINARY_DIR}/empty.svg"
-  @ONLY
-  COPYONLY
-)
 # Install the scope images
 install(
   FILES
 	  "data/data.json"
 	  "data/yoda.svg"
-	  "data/empty.svg"
+	  "data/emptieness.svg"
 	  "data/earth.svg"
 	  "data/sun.svg"
 	  "data/water.svg"
 	  "data/blue.svg"
 	  "data/yellow.svg"
+		"data/yoda.txt"
+	  "data/emptieness.txt"
+	  "data/earth.txt"
+	  "data/sun.txt"
+	  "data/water.txt"
+	  "data/blue.txt"
+	  "data/yellow.txt"
     "data/icon.png"
     "data/screenshot.png"
   DESTINATION
